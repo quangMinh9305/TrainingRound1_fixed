@@ -73,6 +73,10 @@ body {
     object-fit: cover;
 }
 
+.header-logo1 {
+    display: none;
+}
+
 /*Body1*/
 .body1 {
     width: auto;
@@ -445,11 +449,21 @@ body {
 
     .header-heading {
         padding: 4vw 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .header-logo {
         width: 23.5vw;
         height: 6.794vw;
+        object-fit: cover;
+    }
+
+    .header-logo1 {
+        display: block;
+        width: 5vw;
+        height: 5vw;
         object-fit: cover;
     }
 
